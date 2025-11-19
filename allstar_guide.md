@@ -32,13 +32,15 @@ Then, you will install the AllstarLink software (often using a pre-built image l
 • Restart Asterisk then go <Back> again
 • Go to Expert Configuration menu
 • Select "Edit rpt.conf file" to open the settings file
-• Edit these settings
+• Edit these settings [allscan_settings](https://allscan.info/docs/Node-Radio-Module-Settings.php)
 	• hangtime = 100
 	• althangtime = 200
 	• remote_inact_timeout = 0
 	• remote_timeout = 0
 	• holdofftelem = 1
 	• telemdefault = 0
+	• uncomment Parrot lines
+	
 • Save file and exit editor
 • Restart Asterisk then <Back to Main> then <Exit Main Menu>
 • Confirm exit of asl-menu
